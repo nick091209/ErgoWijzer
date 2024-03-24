@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Moul&family=Tilt+Neon&display=swap");
+
+body {
+  font-family: "Moul", sans-serif;
+  font-size: 16pt;
+  color: white;
+  background-color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 17vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10rem;
+}
+
+.logo_img {
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-decoration-color: #d9d9d9;
+}
