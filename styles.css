@@ -4,9 +4,10 @@ body {
   font-family: "Moul", sans-serif;
   font-size: 16px;
   color: #fff;
-  background-color: #e0e0e0;
+  background-color: #d9d9d9;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 nav {
@@ -63,4 +64,36 @@ a {
   background-position: 100% 100%;
   background-size: 100% 3px;
   overflow: none;
+}
+
+.circle {
+  margin-top: -15rem;
+  margin-left: 55rem;
+  background: white;
+  border-radius: 50%;
+  width: 52rem;
+  height: 52rem;
+}
+
+.hometext {
+  margin-top: -29rem;
+  max-width: 32rem;
+  margin-left: 6.5rem;
+  position: relative;
+  color: #708090;
+  font-weight: 400;
+}
+
+.homepic {
+  margin-top: -29rem;
+  margin-left: 72rem;
+  position: relative;
+  height: 25rem;
+}
+
+.line1 {
+  border-bottom: 4px solid #888;
+  width: 20rem;
+  margin-top: -0.8rem;
+  margin-left: 70rem;
 }
