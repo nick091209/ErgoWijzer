@@ -64,3 +64,31 @@ a {
   background-size: 100% 3px;
   overflow: none;
 }
+
+.icons-container {
+  position: relative;
+  display: flex; /* Gebruik flexbox om de pictogrammen en tekst naast elkaar te plaatsen */
+  align-items: center; /* Centreer verticaal */
+  justify-content: flex-end; /* Centreer horizontaal */
+  margin-bottom: 50px; /* Voeg indien nodig marges toe tussen de pictogrammen */
+  left: -300px;
+  bottom: -300px;
+  color: grey;
+}
+
+.icon-text {
+  margin-left: 10px; /* Voeg een kleine marge toe tussen pictogram en tekst */
+}
+
+.instagram-icon,
+.envelope-icon,
+.phone-icon {
+  
+}
+
+
+
+
+
+
+
