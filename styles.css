@@ -71,6 +71,10 @@ a {
   justify-content: flex-end;
 }
 
+.hometext {
+  position: absolute;
+}
+
 .circle1 {
   margin-top: -16rem;
   margin-right: -11rem;
@@ -107,4 +111,20 @@ a {
 .homepic {
   position: absolute;
   margin-top: -2rem;
+}
+
+.hometitle {
+  font-weight: 400;
+  position: absolute;
+  color: #424884;
+  margin-top: -20rem;
+  margin-left: 6.5rem;
+}
+
+.homep {
+  color: #424884;
+  font-size: 12pt;
+  margin-left: 6.5rem;
+  margin-top: -16rem;
+  max-width: 35rem;
 }
