@@ -66,36 +66,45 @@ a {
   overflow: none;
 }
 
+.circlebackground1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .circle1 {
-  margin-top: -15rem;
-  margin-left: 55rem;
+  margin-top: -16rem;
+  margin-right: -11rem;
+  position: absolute;
   background: white;
   border-radius: 50%;
-  width: 52rem;
-  height: 52rem;
+  width: 53rem;
+  height: 53rem;
+  z-index: -1;
+}
+
+.circlebackground2 {
+  margin-top: 18rem;
+  margin-right: -19rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .circle2 {
-  margin-top: -19rem;
-  margin-left: 53rem;
+  position: absolute;
   background: #d9d9d9;
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
+  z-index: -1;
 }
 
-.hometext {
-  margin-top: -29rem;
-  max-width: 32rem;
-  margin-left: 6.5rem;
-  position: relative;
-  color: #708090;
-  font-weight: 400;
+.homeicon {
+  width: 15rem;
+  margin-top: -0.5rem;
 }
 
 .homepic {
-  margin-top: -20rem;
-  margin-left: 65rem;
-  position: relative;
-  height: 28rem;
+  position: absolute;
+  margin-top: -2rem;
 }
