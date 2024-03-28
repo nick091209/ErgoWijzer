@@ -10,6 +10,8 @@ body {
   overflow: hidden;
 }
 
+/* home */
+
 nav {
   display: flex;
   align-items: center;
@@ -134,3 +136,28 @@ a {
   margin-top: -8rem;
   max-width: 35rem;
 }
+
+@media screen and (max-width: 1325px) {
+  .circlebackground1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .circle1 {
+    margin-top: 30rem;
+    margin-right: -11rem;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    width: 53rem;
+    height: 53rem;
+    z-index: -1;
+  }
+
+  .homepic {
+    position: absolute;
+    margin-top: 10rem;
+  }
+}
+
+/* producten */
