@@ -97,27 +97,33 @@ a {
 .circle2 {
   position: absolute;
   background: #d9d9d9;
+  display: flex;
+  justify-content: center;
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
   z-index: -1;
+  bottom: 40px;
+  left: 50px;
 }
 
 .homeicon {
-  width: 15rem;
-  margin-top: -0.5rem;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  margin-bottom: 20px;
 }
 
 .homepic {
   position: absolute;
-  margin-top: -2rem;
 }
 
 .hometitle {
   font-weight: 400;
   position: absolute;
   color: #424884;
-  margin-top: -20rem;
+  margin-top: -12rem;
   margin-left: 6.5rem;
 }
 
@@ -125,6 +131,6 @@ a {
   color: #424884;
   font-size: 12pt;
   margin-left: 6.5rem;
-  margin-top: -16rem;
+  margin-top: -8rem;
   max-width: 35rem;
 }
