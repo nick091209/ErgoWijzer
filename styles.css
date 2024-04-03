@@ -154,9 +154,28 @@ a {
     z-index: -1;
   }
 
+  .hometitle {
+    margin-top: -12rem;
+    margin-left: 0;
+  }
+
   .homepic {
     position: absolute;
     margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .logo {
+    margin: 2rem;
+  }
+
+  .logo h2 {
+    margin-right: 0;
+  }
+
+  .nav-links {
+    display: none;
   }
 }
 
