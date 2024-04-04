@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Moul&family=Tilt+Neon&display=swap");
+
+body {
+  font-family: "Moul", sans-serif;
+  font-size: 16px;
+  color: #05487f; /* Verander de tekstkleur */
+  background-color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  width: 620px; /* Pas de breedte van de cirkel aan */
+  height: 620px; /* Pas de hoogte van de cirkel aan */
+  background-color: white; /* Kleur van de cirkel */
+  border-radius: 50%; /* Maak een cirkel */
+  z-index: -1; /* Zet de cirkel achter de inhoud */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 14vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 6rem;
+}
+
+.logo h2 {
+  font-weight: 400;
+  color: #424884;
+  margin-right: 90px;
+}
+
+.logo_img {
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  font-size: 1rem;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 7rem;
+}
+
+a {
+  color: #424884;
+  text-decoration: none;
+  text-decoration-color: #424884;
+}
+
+.un {
+  display: inline-block;
+  padding-bottom: 1px;
+  background-image: linear-gradient(#424884 0 0);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s, background-position 0s 0.3s;
+  overflow: none;
+}
+
+.un:hover {
+  background-position: 100% 100%;
+  background-size: 100% 3px;
+  overflow: none;
+}
+
+.icons-container {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Zet de richting van de flexbox op column */
+  align-items: flex-start; /* Zorg ervoor dat de items aan de linkerkant zijn uitgelijnd */
+  color: #05487f;
+  margin-bottom: 50px;
+  bottom: -140px;
+  left: 80%;
+}
+
+.text-container{
+  position: relative;
+  display: flex;
+  left: 5%;
+  bottom: 35px;
+}
+
+
+
+
+.icon-text {
+  margin-right: 10px; /* Voeg wat ruimte toe tussen de tekst en het icoon */
+}
+
+
+.icons-container:not(:last-child) {
+  margin-right: 130px; /* Pas de rechtermarge aan */
+}
+
+
+.contact-tekst {
+  position: absolute;
+  max-width: 35rem;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.contact-tekst h1 {
+  color: #05487f;
+}
+
+.contact-tekst p {
+  color: #05487f;
+}
