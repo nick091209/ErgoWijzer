@@ -7,16 +7,18 @@ body {
   background-color: #e0e0e0;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+
 }
 
 body::before {
   content: '';
   position: absolute;
-  top: 130%;
+  top: 50%;
   left: 90%;
   transform: translate(-50%, -50%);
-  width: 700px; /* Pas de breedte van de cirkel aan */
-  height: 700px; /* Pas de hoogte van de cirkel aan */
+  width: 620px; /* Pas de breedte van de cirkel aan */
+  height: 620px; /* Pas de hoogte van de cirkel aan */
   background-color: white; /* Kleur van de cirkel */
   border-radius: 50%; /* Maak een cirkel */
   z-index: -1; /* Zet de cirkel achter de inhoud */
@@ -79,13 +81,28 @@ a {
 }
 
 .icons-container {
-  position: relative; /* Verander de positie naar relative */
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: flex-end; /* Zorg ervoor dat de iconen rechts uitgelijnd zijn */
+  flex-direction: column; /* Zet de richting van de flexbox op column */
+  align-items: flex-start; /* Zorg ervoor dat de items aan de linkerkant zijn uitgelijnd */
   color: #05487f;
   margin-bottom: 50px;
-  bottom: -700px;
+  bottom: -140px;
+  left: 80%;
+}
+
+.text-container{
+  position: relative;
+  display: flex;
+  left: 5%;
+  bottom: 35px;
+}
+
+
+
+
+.icon-text {
+  margin-right: 10px; /* Voeg wat ruimte toe tussen de tekst en het icoon */
 }
 
 
@@ -93,21 +110,12 @@ a {
   margin-right: 130px; /* Pas de rechtermarge aan */
 }
 
-.icon-text {
-  margin-left: 30px; /* Voeg een kleine marge toe tussen pictogram en tekst */
-}
-
-.instagram-icon,
-.envelope-icon,
-.phone-icon {
-  
-}
 
 .contact-tekst {
   position: absolute;
   max-width: 35rem;
-  top: 40%;
-  left: 20%;
+  top: 50%;
+  left: 27%;
   transform: translate(-50%, -50%);
   text-align: left;
 }
