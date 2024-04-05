@@ -93,3 +93,25 @@ a {
   margin-top: 0rem;
 
 }
+
+.circle-product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 6rem;
+}
+
+.product-button a {
+  color: white; /* Change the color here */
+  text-decoration: none; /* Removes the underline */
+}
+.product-button {
+  background-color: #424884;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 5px; /* Adjust the padding here to change the size of the button */
+  cursor: pointer;
+  margin-top: -40px;
+}
