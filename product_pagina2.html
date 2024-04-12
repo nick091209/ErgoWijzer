@@ -9,7 +9,7 @@
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 
-<body class="product_pagina">
+<body>
     <nav>
         <div class="logo">
             <img src="assets/logo.png" class="logo_img" alt="ErgoWijzer logo">
@@ -22,26 +22,30 @@
             <li><a class="un" href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <div class="circle-container">
-        <div class="slider">
-            <img class="slide" src="/assets/skull.JPG" alt="Image 1">
-            <img class="slide" src="assets/image0.jpg" alt="Image 2">
-            <!-- Add more images as needed -->
+    <div class="pijlen">
+        <div class="circle-container">
+            <div class="slider">
+                <img class="slide" src="assets/dokter.jpg" alt="Image 1">
+                <img class="slide" src="assets/skull.JPG" alt="Image 2">
+                <video class="slide" id="slidevid" controls>
+                    <source src="assets/sample-5s.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </div>
+
+            <button class="slider-button prev"><i class="fa-solid fa-angle-left fa-3x"></i></button>
+            <button class="slider-button next"><i class="fa-solid fa-angle-right fa-3x"></i></button>
         </div>
-        <button class="slider-button prev"><i class="fa-solid fa-angle-left fa-3x"></i></button>
-        <button class="slider-button next"><i class="fa-solid fa-angle-right fa-3x"></i></button>
     </div>
     <script src="slider.js"></script>
     <div class="text-container">
         <h1>product 2</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis risus non nibh pretium, eget semper
-            nisi sagittis.
-            Proin nec convallis enim. Duis eget iaculis velit, eu mollis arcu. Curabitur cursus lobortis volutpat. Sed
-            ante nunc, sagittis et enim non, rhoncus fringilla ex. Aliquam erat volutpat. Quisque nulla ante, porttitor
-            sit amet augue id, volutpat vehicula arcu. Sed egestas eu libero id volutpat.
-            In hac habitasse platea dictumst. Aliquam id arcu rutrum, malesuada magna a, rutrum tellus. Proin tempor
-            lorem ac hendrerit gravida. Morbi eu dui nec nunc pellentesque pellentesque in vitae nunc. Duis ut blandit
-            neque, non tempor mauris. Donec vitae neque non leo condimentum ultrices.
+        <p>
+            lorum ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis risus non nibh pretium, eget semper
+            lorum ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis risus non nibh pretium, eget semper
         </p>
     </div>
+    <script src="https://kit.fontawesome.com/740dbd682a.js" crossorigin="anonymous"></script>
 </body>
+
+</html>

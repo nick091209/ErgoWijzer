@@ -186,10 +186,10 @@ a {
 .circle_product {
   background: white;
   border-radius: 50%;
-  width: 10rem;
-  height: 10rem;
+  width: 13rem;
+  height: 13rem;
   z-index: -1;
-  margin: 4rem;
+  margin: 1.6rem;
 }
 .row_1 {
   display: flex;
@@ -209,25 +209,30 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 6rem;
+  margin: 0 3rem;
 }
 
 .product-button a {
-  color: white; /* Change the color here */
-  text-decoration: none; /* Removes the underline */
+  color: white;
+  text-decoration: none;
 }
 .product-button {
   background-color: #424884;
-  color: black;
+  color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px 5px; /* Adjust the padding here to change the size of the button */
+  padding: 10px 5px;
   cursor: pointer;
-  margin-top: -40px;
+  margin-top: -6rem;
 }
 
 .product-button:hover {
   background-color: #4f58bf;
+}
+
+.productfoto {
+  height: 7rem;
+  margin: 2.8rem;
 }
 
 /* individuele producten pagina */
@@ -261,6 +266,18 @@ a {
   position: absolute;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+}
+
+.slidevid {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+#slidevid {
+  margin-top: 2.5rem;
 }
 
 video::-webkit-media-controls-start-playback-button {
