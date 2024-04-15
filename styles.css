@@ -258,6 +258,16 @@ a {
   height: 100%;
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
 }
 
 .slide {
@@ -265,7 +275,7 @@ a {
   height: auto;
   position: absolute;
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out; 
 }
 
 .slidevid {
